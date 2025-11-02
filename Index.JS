@@ -1,10 +1,10 @@
 var dice;
-var dices = ['&#9812', '&#9813', '&#9814', '&#9815', '&#9816', '&#9817'];
+var dices = ['&#48;', '&#49', '&#50', '&#51', '&#52', '&#53', '&#54', '&#55', '&#56', '&#57','10'];
 var stopped = true;
 var t;
 
 function change(){
-    var random = Math.floor(Math.random()*6);
+    var random = Math.floor(Math.random()*11);
     dice.innerHTML =    dices[random];
 }
 function stopstart(){
