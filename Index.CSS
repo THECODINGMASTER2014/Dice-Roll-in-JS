@@ -1,0 +1,10 @@
+body{
+ text-align: center;   
+ font-family: cursive;
+} 
+#dice{
+    font-size: 400px;
+}
+#dice:hover{
+    cursor: pointer;
+}
