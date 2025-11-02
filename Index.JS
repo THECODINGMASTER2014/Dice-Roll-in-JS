@@ -1,5 +1,5 @@
 var dice;
-var dices = ['&#9856', '&#9857', '&#9858', '&#9859', '&#9860', '&#9861'];
+var dices = ['&#9812', '&#9813', '&#9814', '&#9815', '&#9816', '&#9817'];
 var stopped = true;
 var t;
 
@@ -10,7 +10,7 @@ function change(){
 function stopstart(){
     if(stopped) {
         stopped =  false;
-        t = setInterval(change, 100);
+        t = setInterval(change, 250);
     } else{
         clearInterval(t);
         stopped = true;

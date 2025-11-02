@@ -3,7 +3,7 @@ body{
  font-family: cursive;
 } 
 #dice{
-    font-size: 400px;
+    font-size: 350px;
 }
 #dice:hover{
     cursor: pointer;
